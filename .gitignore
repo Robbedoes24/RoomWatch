@@ -1,0 +1,2 @@
+# Ignore all data files in the firmware directory
+/firmware/data_acquisition/data/
