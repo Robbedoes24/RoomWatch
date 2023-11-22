@@ -1,7 +1,34 @@
+<script setup lang="ts">
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+function freeRoomsButton() {
+  // Go to free rooms page
+
+  router.push('/roomselector');
+  return;
+}
+
+function setupButton() {
+  // Go to setup page
+  router.push('/camerasetup');
+  return;
+}
+</script>
 <template>
-  <q-page class="row items-center justify-evenly">
-    <h1>Hello World</h1>
-  </q-page>
+  <q-layout class="column flex-center">
+    <q-card class="my-card column">
+      <q-btn class="q-mb-md" size="lg" @click="freeRoomsButton">
+        Free rooms
+      </q-btn>
+      <q-btn size="lg" @click="setupButton">Setup</q-btn>
+    </q-card>
+  </q-layout>
 </template>
 
-<script setup lang="ts"></script>
+<style lang="scss" scoped>
+.my-card {
+  width: 100%;
+  max-width: 250px;
+}
+</style>

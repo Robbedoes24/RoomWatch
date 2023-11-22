@@ -1,4 +1,4 @@
-# Ai-Edge (ai-edge)
+# Quasar App (-)
 
 A Quasar Project
 
