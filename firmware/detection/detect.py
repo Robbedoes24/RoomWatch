@@ -85,6 +85,10 @@ def main():
   last_detection_time = start_time
   last_publish_time = start_time
 
+  # Publish initial message to the MQTT broker
+  print("Publishing initial message")
+  publishDetectionAverage(client, 0, start_time)
+
   # List with detected amounts
   detection_amounts = []
 
