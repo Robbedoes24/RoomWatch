@@ -1,0 +1,863 @@
+2023-12-05 15:26:01,565 INFO    StreamThr :16032 [internal.py:wandb_internal():86] W&B internal server running at pid: 16032, started at: 2023-12-05 15:26:01.565837
+2023-12-05 15:26:01,565 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status
+2023-12-05 15:26:01,565 INFO    WriterThread:16032 [datastore.py:open_for_write():85] open: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\run-pvlyw4l1.wandb
+2023-12-05 15:26:01,565 DEBUG   SenderThread:16032 [sender.py:send():380] send: header
+2023-12-05 15:26:01,575 DEBUG   SenderThread:16032 [sender.py:send():380] send: run
+2023-12-05 15:26:02,521 INFO    SenderThread:16032 [dir_watcher.py:__init__():211] watching files in: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files
+2023-12-05 15:26:02,521 INFO    SenderThread:16032 [sender.py:_start_run_threads():1124] run started: pvlyw4l1 with start time 1701786361.565837
+2023-12-05 15:26:02,526 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: check_version
+2023-12-05 15:26:02,526 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: check_version
+2023-12-05 15:26:02,603 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: run_start
+2023-12-05 15:26:03,877 DEBUG   HandlerThread:16032 [system_info.py:__init__():32] System info init
+2023-12-05 15:26:03,877 DEBUG   HandlerThread:16032 [system_info.py:__init__():47] System info init done
+2023-12-05 15:26:03,877 INFO    HandlerThread:16032 [system_monitor.py:start():194] Starting system monitor
+2023-12-05 15:26:03,877 INFO    SystemMonitor:16032 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-05 15:26:03,877 INFO    HandlerThread:16032 [system_monitor.py:probe():214] Collecting system info
+2023-12-05 15:26:03,883 INFO    SystemMonitor:16032 [interfaces.py:start():190] Started cpu monitoring
+2023-12-05 15:26:03,883 INFO    SystemMonitor:16032 [interfaces.py:start():190] Started disk monitoring
+2023-12-05 15:26:03,883 INFO    SystemMonitor:16032 [interfaces.py:start():190] Started gpu monitoring
+2023-12-05 15:26:03,883 INFO    SystemMonitor:16032 [interfaces.py:start():190] Started memory monitoring
+2023-12-05 15:26:03,899 INFO    SystemMonitor:16032 [interfaces.py:start():190] Started network monitoring
+2023-12-05 15:26:03,903 DEBUG   HandlerThread:16032 [system_info.py:probe():196] Probing system
+2023-12-05 15:26:03,903 DEBUG   HandlerThread:16032 [gitlib.py:_init_repo():56] git repository is invalid
+2023-12-05 15:26:03,903 DEBUG   HandlerThread:16032 [system_info.py:probe():244] Probing system done
+2023-12-05 15:26:03,903 DEBUG   HandlerThread:16032 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.10.10', 'heartbeatAt': '2023-12-05T14:26:03.903313', 'startedAt': '2023-12-05T14:26:01.557238', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\quint\\Documents\\1. Software Engineer\\AI Edge\\yolov8_person_detector\\main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': 'MSI', 'username': 'quint', 'executable': 'C:\\Users\\quint\\miniconda3\\envs\\venv\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2304.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 2304.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'/': {'total': 452.99218368530273, 'used': 432.55012130737305}}, 'gpu': 'NVIDIA GeForce RTX 3050 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Ti Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.708507537841797}}
+2023-12-05 15:26:03,903 INFO    HandlerThread:16032 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-05 15:26:03,903 INFO    HandlerThread:16032 [system_monitor.py:probe():227] Publishing system info
+2023-12-05 15:26:03,903 DEBUG   HandlerThread:16032 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-05 15:26:03,908 DEBUG   HandlerThread:16032 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-05 15:26:03,908 DEBUG   HandlerThread:16032 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-12-05 15:26:03,910 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-12-05 15:26:04,539 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\requirements.txt
+2023-12-05 15:26:04,539 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\conda-environment.yaml
+2023-12-05 15:26:06,433 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:06,433 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:08,942 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:08,942 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:11,455 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:11,455 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:13,964 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:13,964 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:15,430 DEBUG   HandlerThread:16032 [system_info.py:_save_conda():87] Saving conda packages done
+2023-12-05 15:26:15,430 INFO    HandlerThread:16032 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-05 15:26:15,441 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:15,441 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:26:15,441 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:15,441 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:26:15,441 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:26:15,441 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-05 15:26:15,461 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:26:15,461 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:26:15,463 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:26:15,624 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\conda-environment.yaml
+2023-12-05 15:26:15,627 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\wandb-metadata.json
+2023-12-05 15:26:15,701 DEBUG   SenderThread:16032 [sender.py:send():380] send: telemetry
+2023-12-05 15:26:16,127 INFO    wandb-upload_0:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\dzpt1pg1-wandb-metadata.json
+2023-12-05 15:26:16,492 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:16,492 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:16,638 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:26:17,540 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:18,642 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:26:19,030 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:19,030 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:20,653 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:26:21,574 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:21,574 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:22,909 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:24,314 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:24,314 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:24,692 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:26:28,009 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:28,394 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-12-05 15:26:30,447 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:30,447 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:30,447 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:30,448 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:30,448 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:30,448 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:30,448 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:30,749 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:26:30,753 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:26:30,753 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:26:32,448 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:32,448 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:32,448 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:32,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:32,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:32,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:32,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:33,991 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:34,476 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:34,476 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:34,476 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:34,476 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:34,476 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:34,485 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:34,485 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:34,847 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\config.yaml
+2023-12-05 15:26:36,505 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:36,505 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:36,505 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:36,506 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:36,506 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:36,506 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:36,506 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:38,522 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:38,522 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:38,522 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:38,522 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:38,522 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:38,522 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:38,522 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:39,886 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:26:40,029 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:40,559 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:42,588 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:42,588 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:42,598 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:42,598 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:42,598 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:42,598 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:42,598 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:44,624 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:44,624 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:44,624 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:44,624 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:44,624 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:44,624 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:44,624 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:45,180 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:45,514 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:26:45,515 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:26:45,516 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:26:45,946 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:26:46,668 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:46,668 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:46,668 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:46,668 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:46,668 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:46,668 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:46,668 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:48,706 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:48,706 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:48,706 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:48,706 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:48,706 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:48,706 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:48,706 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:50,739 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:50,749 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:50,749 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:50,749 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:50,749 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:50,749 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:50,749 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:51,177 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:52,005 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:26:52,775 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:52,775 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:52,775 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:52,776 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:52,776 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:52,776 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:52,776 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:54,808 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:54,809 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:54,809 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:54,810 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:54,810 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:54,810 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:54,810 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:56,224 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:26:56,842 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:56,843 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:56,843 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:56,844 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:56,844 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:56,844 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:56,844 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:58,055 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:26:58,879 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:58,879 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:58,879 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:58,879 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:58,879 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:58,879 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:26:58,879 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:00,530 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:27:00,530 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:27:00,530 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:27:00,910 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:00,910 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:00,910 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:00,910 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:00,910 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:00,910 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:00,910 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:01,739 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:02,950 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:02,950 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:02,950 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:02,950 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:02,950 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:02,950 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:02,950 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:03,904 DEBUG   SystemMonitor:16032 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-05 15:27:03,907 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:27:04,120 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:04,979 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:04,979 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:04,979 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:04,979 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:04,979 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:04,979 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:04,979 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:06,930 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:07,019 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:07,019 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:07,023 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:07,023 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:07,023 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:07,023 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:07,023 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:09,054 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:09,054 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:09,054 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:09,054 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:09,054 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:09,054 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:09,054 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:10,173 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:11,086 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-12-05 15:27:11,086 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:11,086 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:11,086 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:11,086 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:11,086 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:11,086 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:11,086 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:12,361 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:13,123 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:13,123 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:13,124 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:13,124 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:13,124 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:13,124 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:13,124 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:15,139 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:15,139 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:15,139 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:15,139 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:15,139 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:15,139 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:15,139 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:15,525 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:27:15,541 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:27:15,541 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:27:16,231 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:17,156 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:17,156 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:17,156 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:17,156 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:17,156 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:17,156 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:17,156 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:17,710 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:19,186 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:19,197 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:19,197 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:19,201 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:19,201 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:19,201 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:19,201 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:21,219 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:21,219 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:21,219 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:21,219 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:21,219 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:21,219 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:21,219 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:22,264 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:23,250 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:23,250 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:23,250 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:23,250 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:23,250 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:23,250 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:23,250 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:23,255 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:25,278 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:25,278 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:25,278 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:25,278 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:25,278 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:25,278 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:25,278 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:27,306 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:27,306 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:27,306 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:27,306 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:27,306 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:27,306 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:27,306 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:29,201 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:29,321 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:29,321 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:29,321 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:29,321 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:29,321 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:29,321 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:29,321 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:30,383 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:30,542 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:27:30,558 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:27:30,558 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:27:31,355 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:31,355 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:31,355 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:31,355 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:31,355 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:31,355 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:31,355 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:33,384 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:33,384 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:33,387 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:33,387 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:33,387 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:33,387 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:33,387 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:33,919 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:27:34,926 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:35,415 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:35,415 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:35,415 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:35,415 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:35,415 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:35,415 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:35,415 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:36,440 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:37,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:37,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:37,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:37,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:37,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:37,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:37,452 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:39,483 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:39,483 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:39,483 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:39,483 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:39,483 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:39,483 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:39,483 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:40,411 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:41,501 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-12-05 15:27:41,519 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:41,519 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:41,519 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:41,519 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:41,526 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:41,526 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:41,526 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:43,540 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:43,540 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:43,540 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:43,540 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:43,540 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:43,540 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:43,540 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:44,543 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:45,499 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:45,564 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:27:45,564 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:45,564 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:27:45,564 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:45,564 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:27:45,570 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:45,570 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:45,574 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:45,574 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:45,574 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:47,599 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:47,600 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:47,600 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:47,601 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:47,601 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:47,601 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:47,601 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:49,627 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:49,627 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:49,628 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:49,628 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:49,628 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:49,629 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:49,629 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:50,521 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:50,633 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:51,652 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:51,652 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:51,652 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:51,652 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:51,652 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:51,652 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:51,652 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:53,688 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:53,688 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:53,688 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:53,688 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:53,688 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:53,688 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:53,688 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:55,542 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:27:55,724 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:55,724 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:55,724 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:55,724 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:55,724 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:55,724 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:55,724 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:57,739 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:57,739 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:57,739 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:57,739 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:57,739 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:57,739 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:57,739 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:58,746 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:27:59,770 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:59,770 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:59,770 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:59,780 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:59,780 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:59,780 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:27:59,780 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:00,566 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:28:00,566 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:28:00,570 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:28:00,802 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:01,803 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:01,803 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:01,803 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:01,803 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:01,803 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:01,803 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:01,812 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:03,835 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:03,835 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:03,835 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:03,835 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:03,844 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:03,844 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:03,845 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:03,933 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:28:04,846 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:05,869 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:05,869 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:05,869 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:05,869 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:05,869 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:05,869 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:05,869 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:06,012 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:07,898 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:07,898 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:07,898 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:07,898 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:07,898 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:07,898 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:07,898 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:09,921 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:09,921 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:09,921 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:09,921 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:09,921 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:09,921 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:09,921 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:10,930 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:11,642 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:11,945 ERROR   gpu       :16032 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-12-05 15:28:11,945 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:11,945 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:11,945 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:11,945 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:11,952 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:11,952 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:11,952 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:13,966 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:13,966 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:13,966 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:13,966 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:13,976 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:13,976 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:13,976 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:15,563 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:28:15,563 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:28:15,563 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:28:16,008 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:16,008 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:16,008 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:16,008 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:16,008 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:16,008 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:16,011 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:16,085 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:16,085 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:17,010 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:17,110 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:18,026 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:18,026 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:18,026 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:18,026 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:18,026 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:18,026 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:18,026 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:19,045 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:20,059 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:20,059 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:20,059 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:20,059 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:20,059 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:20,059 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:20,059 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:22,077 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:22,077 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:22,077 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:22,077 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:22,077 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:22,077 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:22,077 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:22,808 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:23,098 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:24,113 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:24,113 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:24,113 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:24,113 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:24,113 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:24,113 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:24,113 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:25,122 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:26,143 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:26,143 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:26,143 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:26,143 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:26,143 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:26,143 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:26,143 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:28,164 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:28,164 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:28,164 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:28,164 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:28,169 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:28,169 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:28,169 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:28,760 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:29,171 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:30,195 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:30,195 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:30,195 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:30,195 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:30,197 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:30,197 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:30,197 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:30,569 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:28:30,585 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:28:30,585 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:28:32,235 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:32,235 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:32,235 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:32,235 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:32,235 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:32,235 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:32,235 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:33,258 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:33,934 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:28:33,934 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:34,272 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:34,272 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:34,272 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:34,272 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:34,272 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:34,272 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:34,272 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:35,282 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:36,309 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:36,309 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:36,309 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:36,309 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:36,309 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:36,309 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:36,309 ERROR   gpu       :16032 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 15:28:38,336 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:39,777 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:40,371 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:44,413 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:45,086 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:28:45,593 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:28:45,672 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:28:45,672 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:28:45,689 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,053 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,053 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\labels_1_029d0cdf0bee9d1471ff.jpg with policy now
+2023-12-05 15:28:46,053 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,101 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,101 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\train_batch0_1_a4b314309ba0dc5594fa.jpg with policy now
+2023-12-05 15:28:46,101 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,141 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,141 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,141 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\train_batch1_1_247e29fb0c0773c3219d.jpg with policy now
+2023-12-05 15:28:46,181 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,181 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\train_batch2_1_5bf236900dab8fdcfb11.jpg with policy now
+2023-12-05 15:28:46,181 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,229 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,229 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,230 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\val_batch0_labels_1_da1cb694529776d508b9.jpg with policy now
+2023-12-05 15:28:46,262 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,262 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\val_batch0_pred_1_60a413a6d443bf7d8468.jpg with policy now
+2023-12-05 15:28:46,262 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,304 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,304 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,304 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\val_batch1_labels_1_87b42238bd3f5466b17f.jpg with policy now
+2023-12-05 15:28:46,357 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,357 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,357 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\val_batch1_pred_1_3603141e8e504b328a4e.jpg with policy now
+2023-12-05 15:28:46,408 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,408 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,409 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\val_batch2_pred_1_23ef3c24d1e93f284dc2.jpg with policy now
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\train_batch1_1_247e29fb0c0773c3219d.jpg
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\train_batch0_1_a4b314309ba0dc5594fa.jpg
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\val_batch1_pred_1_3603141e8e504b328a4e.jpg
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\train_batch2_1_5bf236900dab8fdcfb11.jpg
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\labels_1_029d0cdf0bee9d1471ff.jpg
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\val_batch1_labels_1_87b42238bd3f5466b17f.jpg
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\val_batch2_pred_1_23ef3c24d1e93f284dc2.jpg
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\val_batch0_labels_1_da1cb694529776d508b9.jpg
+2023-12-05 15:28:46,438 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\val_batch0_pred_1_60a413a6d443bf7d8468.jpg
+2023-12-05 15:28:46,446 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images
+2023-12-05 15:28:46,446 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media
+2023-12-05 15:28:46,466 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,468 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\val_batch2_labels_1_28fe534032af1c5bfb9b.jpg with policy now
+2023-12-05 15:28:46,469 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,497 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,497 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\PR_curve_1_3e2ef1e0a652e143c398.png with policy now
+2023-12-05 15:28:46,497 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,527 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,527 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,527 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\F1_curve_1_9bef8b4cfc209a5b99d4.png with policy now
+2023-12-05 15:28:46,558 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,558 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\P_curve_1_8320b354881eba844f6a.png with policy now
+2023-12-05 15:28:46,558 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,590 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,590 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,590 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\R_curve_1_f8bce9ab7765143a5e20.png with policy now
+2023-12-05 15:28:46,645 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,645 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\confusion_matrix_normalized_1_fd13408c323a177612b2.png with policy now
+2023-12-05 15:28:46,647 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,693 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:46,693 DEBUG   SenderThread:16032 [sender.py:send():380] send: files
+2023-12-05 15:28:46,693 INFO    SenderThread:16032 [sender.py:_save_file():1380] saving file media\images\confusion_matrix_1_15ee43b9cc7de2806028.png with policy now
+2023-12-05 15:28:46,710 INFO    wandb-upload_0:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\vha5ubzb-media/images/labels_1_029d0cdf0bee9d1471ff.jpg
+2023-12-05 15:28:46,800 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 15:28:47,065 INFO    wandb-upload_1:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\et3ipyiq-media/images/train_batch0_1_a4b314309ba0dc5594fa.jpg
+2023-12-05 15:28:47,075 INFO    wandb-upload_10:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\1dhbt18a-media/images/PR_curve_1_3e2ef1e0a652e143c398.png
+2023-12-05 15:28:47,095 INFO    wandb-upload_12:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\vdzuojq8-media/images/P_curve_1_8320b354881eba844f6a.png
+2023-12-05 15:28:47,126 INFO    wandb-upload_13:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\jyu01rag-media/images/R_curve_1_f8bce9ab7765143a5e20.png
+2023-12-05 15:28:47,156 INFO    wandb-upload_3:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\rin0v5d8-media/images/train_batch2_1_5bf236900dab8fdcfb11.jpg
+2023-12-05 15:28:47,171 INFO    wandb-upload_11:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\ob239v5r-media/images/F1_curve_1_9bef8b4cfc209a5b99d4.png
+2023-12-05 15:28:47,171 INFO    wandb-upload_2:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\cxqqgrmy-media/images/train_batch1_1_247e29fb0c0773c3219d.jpg
+2023-12-05 15:28:47,171 INFO    wandb-upload_14:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\h5maunvc-media/images/confusion_matrix_normalized_1_fd13408c323a177612b2.png
+2023-12-05 15:28:47,201 INFO    wandb-upload_4:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\uiwoyaf4-media/images/val_batch0_labels_1_da1cb694529776d508b9.jpg
+2023-12-05 15:28:47,257 INFO    wandb-upload_5:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\ngrne9c0-media/images/val_batch0_pred_1_60a413a6d443bf7d8468.jpg
+2023-12-05 15:28:47,277 INFO    wandb-upload_15:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\5nzk7wxu-media/images/confusion_matrix_1_15ee43b9cc7de2806028.png
+2023-12-05 15:28:47,335 INFO    wandb-upload_6:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\m0f5x15m-media/images/val_batch1_labels_1_87b42238bd3f5466b17f.jpg
+2023-12-05 15:28:47,345 INFO    wandb-upload_7:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\d36vqeak-media/images/val_batch1_pred_1_3603141e8e504b328a4e.jpg
+2023-12-05 15:28:47,401 INFO    wandb-upload_9:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\gt5s53b6-media/images/val_batch2_labels_1_28fe534032af1c5bfb9b.jpg
+2023-12-05 15:28:47,432 INFO    wandb-upload_8:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\prr8e049-media/images/val_batch2_pred_1_23ef3c24d1e93f284dc2.jpg
+2023-12-05 15:28:47,455 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\R_curve_1_f8bce9ab7765143a5e20.png
+2023-12-05 15:28:47,455 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\confusion_matrix_normalized_1_fd13408c323a177612b2.png
+2023-12-05 15:28:47,455 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\val_batch2_labels_1_28fe534032af1c5bfb9b.jpg
+2023-12-05 15:28:47,455 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\PR_curve_1_3e2ef1e0a652e143c398.png
+2023-12-05 15:28:47,455 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\F1_curve_1_9bef8b4cfc209a5b99d4.png
+2023-12-05 15:28:47,455 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\P_curve_1_8320b354881eba844f6a.png
+2023-12-05 15:28:47,455 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images\confusion_matrix_1_15ee43b9cc7de2806028.png
+2023-12-05 15:28:47,462 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\media\images
+2023-12-05 15:28:48,093 INFO    wandb-upload_1:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\60goh436-media/images/labels_1_029d0cdf0bee9d1471ff.jpg
+2023-12-05 15:28:48,093 INFO    wandb-upload_0:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\cm70jgas-media/images/train_batch0_1_a4b314309ba0dc5594fa.jpg
+2023-12-05 15:28:48,119 INFO    wandb-upload_12:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\s6h78koh-media/images/train_batch1_1_247e29fb0c0773c3219d.jpg
+2023-12-05 15:28:48,458 INFO    wandb-upload_10:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\bz07z6b9-media/images/train_batch2_1_5bf236900dab8fdcfb11.jpg
+2023-12-05 15:28:48,462 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:28:48,508 INFO    wandb-upload_6:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\nagxszow-media/images/confusion_matrix_normalized_1_fd13408c323a177612b2.png
+2023-12-05 15:28:48,512 INFO    wandb-upload_5:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\1q273qh8-media/images/F1_curve_1_9bef8b4cfc209a5b99d4.png
+2023-12-05 15:28:48,539 INFO    wandb-upload_15:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\2kh9m3ju-media/images/R_curve_1_f8bce9ab7765143a5e20.png
+2023-12-05 15:28:48,563 INFO    wandb-upload_4:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\zkqzgxgt-media/images/PR_curve_1_3e2ef1e0a652e143c398.png
+2023-12-05 15:28:48,636 INFO    wandb-upload_8:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\niz1jv9o-media/images/confusion_matrix_1_15ee43b9cc7de2806028.png
+2023-12-05 15:28:48,717 INFO    wandb-upload_2:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\xn14qo0k-media/images/P_curve_1_8320b354881eba844f6a.png
+2023-12-05 15:28:48,891 INFO    wandb-upload_11:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\pm4hjjp9-media/images/val_batch1_labels_1_87b42238bd3f5466b17f.jpg
+2023-12-05 15:28:48,921 INFO    wandb-upload_7:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\144ykk1l-media/images/val_batch2_labels_1_28fe534032af1c5bfb9b.jpg
+2023-12-05 15:28:48,963 INFO    wandb-upload_14:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\uwr679uv-media/images/val_batch0_labels_1_da1cb694529776d508b9.jpg
+2023-12-05 15:28:48,973 INFO    wandb-upload_13:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\qkpnjb15-media/images/val_batch0_pred_1_60a413a6d443bf7d8468.jpg
+2023-12-05 15:28:49,075 INFO    wandb-upload_9:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\74o79x87-media/images/val_batch1_pred_1_3603141e8e504b328a4e.jpg
+2023-12-05 15:28:49,152 INFO    wandb-upload_3:16032 [upload_job.py:push():131] Uploaded file C:\Users\quint\AppData\Local\Temp\tmpzfufr7tvwandb\tm759wt2-media/images/val_batch2_pred_1_23ef3c24d1e93f284dc2.jpg
+2023-12-05 15:29:12,777 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:29:12,794 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 15:29:12,832 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:29:12,842 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:29:12,862 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:29:13,061 INFO    Thread-16 :16032 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\wandb\run-20231205_152601-pvlyw4l1\files\output.log
+2023-12-05 15:29:13,217 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:29:17,789 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:29:17,799 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:29:17,799 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:29:17,799 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:29:33,886 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:29:33,886 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:29:34,001 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:29:34,001 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:29:34,001 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:29:43,520 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:29:44,535 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:29:49,891 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:29:49,891 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:29:49,891 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:29:52,050 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:29:54,919 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:30:23,105 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:23,105 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 15:30:23,105 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:23,105 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:23,106 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:30:23,160 DEBUG   SenderThread:16032 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 15:30:23,160 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:23,341 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:24,074 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:30:46,096 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:46,096 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:46,096 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:46,147 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:46,147 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:30:48,521 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:51,396 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:30:53,277 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:30:53,723 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:30:56,761 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:30:58,327 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:01,894 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:03,393 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:06,951 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:08,457 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:11,994 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:13,527 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:17,052 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:18,583 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:22,108 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:23,634 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:23,728 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:31:27,771 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:28,689 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:32,834 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:33,747 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:37,897 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:38,813 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:42,955 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:43,872 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:48,009 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:48,864 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:53,069 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:53,732 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:31:53,982 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:31:58,760 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:31:59,046 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:03,812 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:04,099 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:08,858 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:09,144 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:13,903 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:14,189 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:18,957 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:19,241 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:23,736 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:32:24,289 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:24,748 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:29,356 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:29,799 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:34,403 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:34,863 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:39,463 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:39,922 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:44,509 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:44,967 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:49,572 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:50,031 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:53,745 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:32:54,630 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:32:55,773 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:32:59,684 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:00,825 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:04,748 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:05,882 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:09,788 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:10,945 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:14,837 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:15,991 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:19,892 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:21,058 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:23,758 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:33:24,960 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:26,793 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:30,019 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:31,850 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:35,080 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:36,909 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:40,136 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:41,971 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:45,205 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:47,030 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:50,260 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:52,064 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:33:53,761 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:33:55,329 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:33:57,812 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:00,391 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:02,879 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:05,453 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:07,935 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:10,515 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:13,004 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:15,566 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:18,061 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:20,619 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:23,112 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:23,775 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:34:25,671 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:28,829 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:30,730 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:33,896 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:35,796 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:38,948 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:40,850 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:44,000 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:45,913 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:45,913 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:49,059 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:50,967 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:53,788 DEBUG   SenderThread:16032 [sender.py:send():380] send: stats
+2023-12-05 15:34:54,803 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:34:56,038 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:34:59,859 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:35:01,098 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:35:04,908 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:35:06,158 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-05 15:35:09,959 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 15:35:11,228 DEBUG   HandlerThread:16032 [handler.py:handle_request():146] handle_request: keepalive
