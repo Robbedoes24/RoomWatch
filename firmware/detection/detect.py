@@ -24,8 +24,8 @@ DETECTION_FREQUENCY = 5 # seconds (run detection every x seconds, make sure this
 DETECTION_PUBLISH_FREQUENCY = 60 # seconds (publish detection average every x seconds, make sure this is a multiple of the DETECTION_FREQUENCY for consistent results)
 
 # --- Pre run config/setup ---
-# Load the YOLOv8 model
-model = YOLO('yolov8n.pt')
+# Load the model
+model = YOLO('../../models/best.pt')
 
 # Create a camera object (for image capture)
 cap = cv2.VideoCapture(0)

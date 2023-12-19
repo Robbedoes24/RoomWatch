@@ -12,8 +12,8 @@ INFERENCE_FREQUENCY = 5 # seconds (run inference every x seconds, make sure this
 DETECTION_THRESHOLD = 0.80 # 0.0 - 1.0 (confidence threshold)
 
 # --- Pre run config/setup ---
-# Load the YOLOv8 model
-model = YOLO('yolov8n.pt')
+# Load the model
+model = YOLO('../../models/best.pt')
 
 # Create a camera object (for image capture)
 cap = cv2.VideoCapture(0)
