@@ -1,0 +1,6 @@
+path: C:\Users\quint\Documents\1. Software Engineer\AI Edge\yolov8_person_detector\data
+train: images/train
+val: images/val
+
+names:
+  0: person
