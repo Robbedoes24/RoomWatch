@@ -18,10 +18,10 @@ function setupButton() {
 <template>
   <q-layout class="column flex-center">
     <q-card class="my-card column">
-      <q-btn class="q-mb-md" size="lg" @click="freeRoomsButton">
+      <q-btn class="q-mb-md" size="50px" @click="freeRoomsButton">
         Free rooms
       </q-btn>
-      <q-btn size="lg" @click="setupButton">Setup</q-btn>
+      <q-btn size="50px" @click="setupButton">Setup</q-btn>
     </q-card>
   </q-layout>
 </template>
@@ -29,6 +29,6 @@ function setupButton() {
 <style lang="scss" scoped>
 .my-card {
   width: 100%;
-  max-width: 250px;
+  max-width: 450px;
 }
 </style>
