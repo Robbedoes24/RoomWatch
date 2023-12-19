@@ -113,7 +113,7 @@ def main():
 
     # --- Detection ---
     # If x seconds have passed since the last detection
-    if current_time - last_detection_time >= DETECTION_FREQUENCY:
+    if current_time - last_detection_time > DETECTION_FREQUENCY:
       # Reset the last detection time (before running detection, because it takes time)
       last_detection_time = time.time()
 
@@ -121,14 +121,14 @@ def main():
       success, frame = cap.read()
 
       # Get the amount of people detected
-      amount_of_people = amountOfPeople(frame)  
+      amount_of_people = amountOfPeople(frame) 
 
       # Add the amount of people detected to the list
       detection_amounts.append(amount_of_people)
 
     # --- Publish ---
     # If x seconds have passed since the last publish
-    if current_time - last_publish_time >= DETECTION_PUBLISH_FREQUENCY:
+    if current_time - last_publish_time > DETECTION_PUBLISH_FREQUENCY:
       # Reset the last publish time
       last_publish_time = time.time()
 
