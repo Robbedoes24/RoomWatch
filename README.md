@@ -128,7 +128,25 @@ The message is formatted as follows: `{"uptime": <uptime>, "people": <people>}`
 
 ## Frontend
 
-??
+### Install the dependencies
+
+```bash
+yarn
+# or
+npm install
+```
+
+### Start script for mqtt scrapping
+
+```bash
+node mqttScript.js
+```
+
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+
+```bash
+quasar dev
+```
 
 ## Models
 
