@@ -17,7 +17,7 @@ ROOM_NAME = os.getenv("ROOM_NAME")
 
 CAMERA_WIDTH = 1920
 CAMERA_HEIGHT = 1080
-CAMERA_FPS = 30
+CAMERA_FPS = 1
 
 DETECTION_THRESHOLD = 0.5 # 0.0 - 1.0 (confidence threshold)
 DETECTION_FREQUENCY = 5 # seconds (run detection every x seconds, make sure this is higher than the inference time)
@@ -76,6 +76,7 @@ def publishDetectionAverage(client, average, start_time):
 
 # --- Main ---
 def main():
+  # --- Setup ---
   # Connect to the MQTT broker
   print("Connecting to MQTT broker")
   client.connect(MQTT_HOST, MQTT_PORT)
@@ -92,11 +93,25 @@ def main():
   # List with detected amounts
   detection_amounts = []
 
+  # --- Detection loop ---
   print("Starting detection loop")
   while True:
     # Get the current time
     current_time = time.time()
 
+    # continually capture frames from the camera (to prevent the buffer from filling up)
+    success, frame = cap.read()
+
+    # If the camera is not working, send error message and exit loop
+    if not success:
+      # Print error message
+      print("Camera malfunction")
+      # Send malfuction message to the MQTT broker
+      client.publish(MQTT_TOPIC + "/" + ROOM_NAME, "Error: Camera malfunction")
+      # Exit the loop
+      break
+
+    # --- Detection ---
     # If x seconds have passed since the last detection
     if current_time - last_detection_time >= DETECTION_FREQUENCY:
       # Reset the last detection time (before running detection, because it takes time)
@@ -105,21 +120,13 @@ def main():
       # Read a frame from the camera
       success, frame = cap.read()
 
-      if success:
-        # Get the amount of people detected
-        amount_of_people = amountOfPeople(frame)
-      else:
-        # Print error message
-        print("Camera malfunction")
-        # Send malfuction message to the MQTT broker
-        client.publish(MQTT_TOPIC + "/" + ROOM_NAME, "Error: Camera malfunction")
-        # Release the camera
-        cap.release()
-        # Close the program
-        exit()    
+      # Get the amount of people detected
+      amount_of_people = amountOfPeople(frame)  
+
       # Add the amount of people detected to the list
       detection_amounts.append(amount_of_people)
 
+    # --- Publish ---
     # If x seconds have passed since the last publish
     if current_time - last_publish_time >= DETECTION_PUBLISH_FREQUENCY:
       # Reset the last publish time
@@ -134,6 +141,17 @@ def main():
 
       # Clear the list
       detection_amounts.clear()
+  
+  # --- Cleanup ---
+  # Release the camera
+  cap.release()
+
+  # Disconnect from the MQTT broker
+  print("Disconnecting from MQTT broker")
+  client.disconnect()
+
+  # Close the program
+  exit()
 
 # --- Run main ---
 if __name__ == "__main__":
