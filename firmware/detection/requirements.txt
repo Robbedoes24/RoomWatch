@@ -1,0 +1,5 @@
+ultralytics
+opencv-python
+paho-mqtt
+python-dotenv
+tensorflow # for using the tensorflow models
