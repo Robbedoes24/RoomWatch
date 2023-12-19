@@ -19,7 +19,7 @@ CAMERA_WIDTH = 1920
 CAMERA_HEIGHT = 1080
 CAMERA_FPS = 1
 
-DETECTION_THRESHOLD = 0.5 # 0.0 - 1.0 (confidence threshold)
+DETECTION_THRESHOLD = 0.7 # 0.0 - 1.0 (confidence threshold)
 DETECTION_FREQUENCY = 5 # seconds (run detection every x seconds, make sure this is higher than the inference time)
 DETECTION_PUBLISH_FREQUENCY = 60 # seconds (publish detection average every x seconds, make sure this is a multiple of the DETECTION_FREQUENCY for consistent results)
 
@@ -40,19 +40,10 @@ client = mqtt.Client()
 # --- Functions ---
 def amountOfPeople(frame):
   # Run the model on the frame
-  results = model(frame)
-
-  # Convert the results to json (for easier processing)
-  json_results = json.loads(results[0].tojson())
-
-  # Get the amount of people detected from the json results
-  amount_of_people_detected = 0
-  for result in json_results:
-    if result["name"] == "person" and round(result["confidence"],2) > DETECTION_THRESHOLD:
-      amount_of_people_detected += 1
+  results = model.predict(frame, classes=0, conf=DETECTION_THRESHOLD)
 
   # Return the amount of people detected
-  return amount_of_people_detected
+  return len(results[0])
 
 def calculateAverage(list):
   # Calculate the average
