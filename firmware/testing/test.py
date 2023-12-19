@@ -13,7 +13,7 @@ DETECTION_THRESHOLD = 0.5 # 0.0 - 1.0 (confidence threshold)
 
 # --- Pre run config/setup ---
 # Load the model
-model = YOLO('../../models/best.pt')
+model = YOLO('../../models/best.pt', task='detect')
 
 # Create a camera object (for image capture)
 cap = cv2.VideoCapture(0)

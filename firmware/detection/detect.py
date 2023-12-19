@@ -25,7 +25,7 @@ DETECTION_PUBLISH_FREQUENCY = 60 # seconds (publish detection average every x se
 
 # --- Pre run config/setup ---
 # Load the model
-model = YOLO('../../models/best.pt')
+model = YOLO('../../models/best.pt', task='detect')
 
 # Create a camera object (for image capture)
 cap = cv2.VideoCapture(0)
