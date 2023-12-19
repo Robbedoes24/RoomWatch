@@ -17,7 +17,7 @@ The project has the following file structure:
 │   ├── data_acquisition
 │   ├── detection
 │   └── testing
-├── frontend
+├── web
 ├── models
 └── training
 ```
@@ -29,7 +29,7 @@ It contains three subdirectories:
 - `detection`: This directory contains the code that is used to detect people in the images.
 - `testing`: This directory contains the code that is used to test the camera position and have a visual representation of the detection.
 
-The `frontend` directory contains the code that is used to display the data that is gathered by the Raspberry Pi.
+The `web` or frontend directory contains the code that is used to display the data that is gathered by the Raspberry Pi.
 
 The `models` directory contains the trained models that are used to detect people in the images.
 
