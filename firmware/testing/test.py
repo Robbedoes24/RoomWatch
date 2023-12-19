@@ -9,7 +9,7 @@ CAMERA_HEIGHT = 1080
 CAMERA_FPS = 1
 
 INFERENCE_FREQUENCY = 5 # seconds (run inference every x seconds, make sure this is higher than the inference time)
-DETECTION_THRESHOLD = 0.80 # 0.0 - 1.0 (confidence threshold)
+DETECTION_THRESHOLD = 0.5 # 0.0 - 1.0 (confidence threshold)
 
 # --- Pre run config/setup ---
 # Load the model

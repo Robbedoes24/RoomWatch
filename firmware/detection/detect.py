@@ -19,7 +19,7 @@ CAMERA_WIDTH = 1920
 CAMERA_HEIGHT = 1080
 CAMERA_FPS = 1
 
-DETECTION_THRESHOLD = 0.7 # 0.0 - 1.0 (confidence threshold)
+DETECTION_THRESHOLD = 0.5 # 0.0 - 1.0 (confidence threshold)
 DETECTION_FREQUENCY = 5 # seconds (run detection every x seconds, make sure this is higher than the inference time)
 DETECTION_PUBLISH_FREQUENCY = 60 # seconds (publish detection average every x seconds, make sure this is a multiple of the DETECTION_FREQUENCY for consistent results)
 
