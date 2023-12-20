@@ -17,7 +17,7 @@ The project has the following file structure:
 │   ├── data_acquisition
 │   ├── detection
 │   └── testing
-├── frontend
+├── web
 ├── models
 └── training
 ```
@@ -29,7 +29,7 @@ It contains three subdirectories:
 - `detection`: This directory contains the code that is used to detect people in the images.
 - `testing`: This directory contains the code that is used to test the camera position and have a visual representation of the detection.
 
-The `frontend` directory contains the code that is used to display the data that is gathered by the Raspberry Pi.
+The `web` or frontend directory contains the code that is used to display the data that is gathered by the Raspberry Pi.
 
 The `models` directory contains the trained models that are used to detect people in the images.
 
@@ -155,4 +155,28 @@ The models are trained using transfer learning from [YOLOv8](https://docs.ultral
 
 ## Training
 
-??
+The training of the model requires you to have [vscode](https://code.visualstudio.com/) and [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) installed. 
+
+After opening the Roomwatch directory you'll have to open a terminal.
+
+```bash
+conda create --name venv python=3.10.10
+conda activate venv
+```
+
+```bash
+cd .\training\
+code .
+```
+
+You'll have to go into your personal environment, bottom right, click python and chose venv.
+```bash
+pip install ultralytics
+pip install pillow
+```
+
+Make sure you have your own images with each a label text file that fits the YOLOv8 standards.
+
+In the config.yaml you can change the directory of the images for training and validation and the names of what you're trying to detect.
+
+Now you can just hit the play button and let it do it's thing.
