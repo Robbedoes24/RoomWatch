@@ -27,7 +27,7 @@
     </q-card>
     <q-card class="self-center" style="margin-top: 5%">
       <q-img
-        src="../assets/floor3-1.png"
+        src="../assets/floor3-2.png"
         width="1200px"
         height="1000px"
       ></q-img>
@@ -196,6 +196,64 @@ const dots = ref([
     color: 'red',
     amountStudent: 0,
   },
+
+  // C Right side
+  {
+    id: 'C305',
+    position: { x: 280, y: 400 },
+    color: 'red',
+    amountStudent: 0,
+  },
+  {
+    id: 'C303',
+    position: { x: 280, y: 500 },
+    color: 'red',
+    amountStudent: 0,
+  },
+  {
+    id: 'C307',
+    position: { x: 280, y: 300 },
+    color: 'red',
+    amountStudent: 0,
+  },
+  {
+    id: 'C301',
+    position: { x: 280, y: 600 },
+    color: 'red',
+    amountStudent: 0,
+  },
+  {
+    id: 'C309',
+    position: { x: 280, y: 200 },
+    color: 'red',
+    amountStudent: 0,
+  },
+
+  // C Left Side
+  {
+    id: 'C308',
+    position: { x: 120, y: 200 },
+    color: 'red',
+    amountStudent: 0,
+  },
+  {
+    id: 'C306',
+    position: { x: 120, y: 300 },
+    color: 'red',
+    amountStudent: 0,
+  },
+  {
+    id: 'C304',
+    position: { x: 120, y: 400 },
+    color: 'red',
+    amountStudent: 0,
+  },
+  {
+    id: 'C302',
+    position: { x: 120, y: 500 },
+    color: 'red',
+    amountStudent: 0,
+  },
 ]);
 
 const toggleDotColor = (dot) => {
@@ -222,7 +280,7 @@ const selectFloor = (floorNumber) => {
 .infoCard {
   position: absolute;
   width: 200px;
-  right: 600px;
+  right: 500px;
   top: 200px;
 }
 

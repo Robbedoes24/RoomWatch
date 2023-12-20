@@ -2,11 +2,9 @@
 <template>
   <q-card>
     <q-card-section class="q-pt-md">
-      <q-card-title> Local: {{ props.id }} </q-card-title>
-    </q-card-section>
+      <h5>Local: {{ props.id }}</h5>
 
-    <q-card-section>
-      <p>Number of Students: {{ props.numStudents }}</p>
+      <h5>Students: {{ props.numStudents }}</h5>
     </q-card-section>
   </q-card>
 </template>
@@ -31,7 +29,7 @@ watch(
 <style lang="scss" scoped>
 /* Add styles as needed */
 .q-card {
-  widows: 230px;
-  height: 100px;
+  width: 300px;
+  height: 200px;
 }
 </style>
